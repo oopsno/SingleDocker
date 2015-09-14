@@ -1,0 +1,15 @@
+<!ELEMENT dockscallable
+        (input, recognizer, postprocessor)>
+        <!ELEMENT input          (#PCDATA)>
+        <!ELEMENT recognizer
+                (class, argument*)>
+        <!ELEMENT postprocessor
+                (class, argument*)>
+            <!ELEMENT class    (#PCDATA)>
+            <!ELEMENT argument (#PCDATA)>
+                <!ATTLIST argument type CDATA "class">
+                <!ATTLIST argument type CDATA "int">
+                <!ATTLIST argument type CDATA "string">
+                <!ATTLIST argument type CDATA "double">
+                <!ATTLIST argument type CDATA "float">
+

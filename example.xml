@@ -1,0 +1,16 @@
+<!DOCTYPE dockscallable SYSTEM "meta.dtd">
+<dockscallable>
+    <input>data/back_fs_1387386033021_m1.wav</input>
+    <recognizer>
+        <class>RawGoogleRecognizer</class>
+        <argument type="string">AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw</argument>
+    </recognizer>
+    <postprocessor>
+        <class>SphinxBasedPostProcessor</class>
+        <argument type="string">config/elpmaxe/elpmaxe.pgrammarsentences.xml</argument>
+        <argument type="string">config/elpmaxe/elpmaxe.words</argument>
+        <argument type="float">0</argument>
+        <argument type="float">0</argument>
+        <argument type="int">0</argument>
+    </postprocessor>
+</dockscallable>
