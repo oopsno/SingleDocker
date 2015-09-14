@@ -3,7 +3,6 @@ package org.bedlab.ros.docks.example;
 import PostProcessor.SphinxBasedPostProcessor;
 import Recognizer.RawGoogleRecognizer;
 import Recognizer.StandardRecognizer;
-import com.sun.org.apache.xalan.internal.xsltc.dom.SimpleResultTreeImpl;
 import org.bedlab.ros.docks.callable.DocksCallable;
 
 import javax.sound.sampled.AudioInputStream;
